@@ -1,0 +1,10 @@
+generated
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+.idea
+dist

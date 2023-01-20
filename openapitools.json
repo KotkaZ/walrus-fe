@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.0.0",
+    "generators": {
+      "additionalProperties": {
+        "generatorName": "typescript-axios",
+        "inputSpec": "spec/walrus-api.yaml",
+        "output": "generated",
+        "apiPackage": "com.github.kotkaz.walrus.api",
+        "modelPackage": "com.github.kotkaz.walrus.dto",
+        "additionalProperties": {
+          "supportsES6": true,
+          "stringEnums": true,
+          "enumPropertyNaming": "UPPERCASE"
+        }
+      }
+    }
+  }
+}
